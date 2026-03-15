@@ -1,1 +1,7 @@
-# Pharmacy-Ordering-System
+README | Botika ni Sinta Console-Based Pharmacy Ordering System
+
+This is a console-based pharmacy ordering system written in Java. It lets users view all available products, search for items using keywords, add products to a shopping cart, and checkout with optional discount codes like SENIOR20 (20%) or PWD15 (15%). The program also includes a reports section where users can check low-stock items and restock products as needed. Everything is done using arrays, loops, and strings only, with all features implemented in a single class to keep it simple.
+
+To compile and run the program, first open Command Prompt and go to the folder where PharmacyOrderingSystem.java is saved. For example, in this scenario, the program is located at "C:\Users\Nel\Documents\java", type "cd C:\Users\Nel\Documents\java" and press Enter. Then compile the program using the command "javac PharmacyOrderingSystem.java". If it compiles without errors, run the program with "java PharmacyOrderingSystem".
+
+Once the program starts, a menu will appear with options to list all products in a formatted table, search for products using partial and case-insensitive keywords, add items to the cart with stock validation, view the cart and subtotal, and checkout with discounts. The reports menu lets you see products with low stock and restock items by entering the product code and quantity. This way, the system handles basic pharmacy operations in a clear and organized way while keeping everything simple and easy to use.
